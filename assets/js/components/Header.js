@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 import SearchForm from "../components/SearchForm";
-import { logo } from "../../images/logo.svg";
+import logo from "@/images/logo.svg";
 
 const Header = () => {
   return (

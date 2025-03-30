@@ -1,8 +1,8 @@
 import React from "react";
-import { Review1 } from "../../images/reviewer-1.png";
-import { Review2 } from "../../images/reviewer-2.png";
-import { Review3 } from "../../images/reviewer-3.png";
-import { Review4 } from "../../images/reviewer-4.png";
+import  Review1  from "@/images/reviewer-1.png";
+import  Review2  from "@/images/reviewer-2.png";
+import  Review3  from "@/images/reviewer-3.png";
+import  Review4  from "@/images/reviewer-4.png";
 
 const Testimonials = () => {
   return (

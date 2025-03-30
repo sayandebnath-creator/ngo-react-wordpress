@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
   mode: "development", // or "production"
   entry: "./assets/js/react-app.js", // Ensure this path exists
@@ -25,6 +26,9 @@ module.exports = {
     ],
   },
   resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "assets"),
+    },
     extensions: [".js", ".jsx"],
   },
 };

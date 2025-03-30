@@ -3,7 +3,7 @@ import React from "react";
 const blogs = [
   {
     id: 1,
-    imgSrc: "assets/img/blog-1.jpg",
+    imgSrc: "../../images/blog-1.jpg",
     date: "15",
     month: "Dec",
     author: "By Admin",
@@ -13,7 +13,7 @@ const blogs = [
   },
   {
     id: 2,
-    imgSrc: "assets/img/blog-2.jpg",
+    imgSrc: "../../images/blog-2.jpg",
     date: "15",
     month: "Dec",
     author: "By Admin",
@@ -23,7 +23,7 @@ const blogs = [
   },
   {
     id: 3,
-    imgSrc: "assets/img/blog-3.jpg",
+    imgSrc: "../../images/blog-3.jpg",
     date: "15",
     month: "Dec",
     author: "By Admin",

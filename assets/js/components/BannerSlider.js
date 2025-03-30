@@ -4,8 +4,8 @@ import { Navigation, Autoplay, Thumbs } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import leftarrow from "../../images/left-arrow.svg";
-import rightarrow from "../../images/right-arrow.svg";
+import leftarrow from "@/images/left-arrow.svg";
+import rightarrow from "@/images/right-arrow.svg";
 
 
 const slides = [

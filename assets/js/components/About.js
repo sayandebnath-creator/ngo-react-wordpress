@@ -1,7 +1,7 @@
 import React from "react";
-import aboutImg from "@/assets/images/about-2-img.jpg";
-import missionIcon from "../../images/mission.svg";
-import visionIcon from "../../images/vision.svg";
+import aboutImg from "@/images/about-2-img.jpg";
+import missionIcon from "@/images/mission.svg";
+import visionIcon from "@/images/vision.svg";
 
 const About = () => {
   return (

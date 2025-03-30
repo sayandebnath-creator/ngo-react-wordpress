@@ -1,5 +1,5 @@
 import React from "react";
-import { vectorimg } from "../../images/cta-vector.svg";
+import vectorimg from "@/images/cta-vector.svg";
 
 const CTASection = () => {
   return (
