@@ -9,28 +9,28 @@ const services = [
     title: "Fund Raised & Donation",
     description:
       "Professional Detailed Residential Cleaning, Ensuring Spotless Homes And Healthy Living Spaces.",
-    imgSrc: "assets/images/service-1.jpg",
+    imgSrc: "../../images/service-1.jpg",
     link: "service-details.html",
   },
   {
     title: "Medical Treatment Help",
     description:
       "Professional Detailed Residential Cleaning, Ensuring Spotless Homes And Healthy Living Spaces.",
-    imgSrc: "assets/images/service-2.jpg",
+    imgSrc: "../../images/service-2.jpg",
     link: "service-details.html",
   },
   {
     title: "Child Medical Research",
     description:
       "Professional Detailed Residential Cleaning, Ensuring Spotless Homes And Healthy Living Spaces.",
-    imgSrc: "assets/images/service-3.jpg",
+    imgSrc: "../../images/service-3.jpg",
     link: "service-details.html",
   },
   {
     title: "Development Programs",
     description:
       "Professional Detailed Residential Cleaning, Ensuring Spotless Homes And Healthy Living Spaces.",
-    imgSrc: "assets/images/service-4.jpg",
+    imgSrc: "../../images/service-4.jpg",
     link: "service-details.html",
   },
 ];

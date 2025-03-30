@@ -1,4 +1,5 @@
 import React from "react";
+import { vectorimg } from "../../images/cta-vector.svg";
 
 const CTASection = () => {
   return (
@@ -14,7 +15,7 @@ const CTASection = () => {
         </a>
       </div>
       <img
-        src="assets/images/cta-vector.svg"
+        src={vectorimg}
         alt="Vector"
         className="ul-cta-vector"
       />

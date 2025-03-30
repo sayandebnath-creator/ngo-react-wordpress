@@ -1,4 +1,7 @@
 import React from "react";
+import aboutImg from "@/assets/images/about-2-img.jpg";
+import missionIcon from "../../images/mission.svg";
+import visionIcon from "../../images/vision.svg";
 
 const About = () => {
   return (
@@ -9,7 +12,7 @@ const About = () => {
           <div className="col">
             <div className="ul-about-imgs ul-about-2-img">
               <div className="img-wrapper">
-                <img src="assets/images/about-2-img.jpg" alt="Image" />
+                <img src={aboutImg} alt="Image" />
               </div>
               <div className="ul-about-2-stat">
                 <span className="number">15+</span>
@@ -37,7 +40,7 @@ const About = () => {
               <div className="ul-about-bottom ul-about-2-bottom">
                 <div className="ul-about-2-bottom-block">
                   <div className="ul-about-2-bottom-block-icon">
-                    <img src="assets/images/mission.svg" alt="icon" />
+                    <img src={missionIcon} alt="icon" />
                   </div>
                   <div className="ul-about-2-bottom-block-txt">
                     <h3 className="ul-about-2-bottom-block-title">
@@ -51,7 +54,7 @@ const About = () => {
 
                 <div className="ul-about-2-bottom-block">
                   <div className="ul-about-2-bottom-block-icon">
-                    <img src="assets/images/vision.svg" alt="icon" />
+                    <img src={visionIcon} alt="icon" />
                   </div>
                   <div className="ul-about-2-bottom-block-txt">
                     <h3 className="ul-about-2-bottom-block-title">

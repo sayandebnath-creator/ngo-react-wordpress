@@ -1,10 +1,10 @@
 import React from "react";
 
 const projects = [
-  { id: 1, image: "assets/images/project-1.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "lg" },
-  { id: 2, image: "assets/images/project-2.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "sm" },
-  { id: 3, image: "assets/images/project-3.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "sm" },
-  { id: 4, image: "assets/images/project-4.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "lg" },
+  { id: 1, image: "../../images/project-1.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "lg" },
+  { id: 2, image: "../../images/project-2.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "sm" },
+  { id: 3, image: "../../images/project-3.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "sm" },
+  { id: 4, image: "../../images/project-4.jpg", title: "Child trouble & care", description: "Domestic & Transportation", size: "lg" },
 ];
 
 const ProjectSection = () => {

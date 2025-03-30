@@ -1,4 +1,8 @@
 import React from "react";
+import { Review1 } from "../../images/reviewer-1.png";
+import { Review2 } from "../../images/reviewer-2.png";
+import { Review3 } from "../../images/reviewer-3.png";
+import { Review4 } from "../../images/reviewer-4.png";
 
 const Testimonials = () => {
   return (
@@ -36,10 +40,10 @@ const Testimonials = () => {
                 etiam eu sollicitudin eros. In imperdiet accumsan.
               </p>
               <div className="ul-testimonial-2-overview-reviewers">
-                <img src="assets/images/reviewer-1.png" alt="Reviewer" />
-                <img src="assets/images/reviewer-2.png" alt="Reviewer" />
-                <img src="assets/images/reviewer-3.png" alt="Reviewer" />
-                <img src="assets/images/reviewer-4.png" alt="Reviewer" />
+                <img src={Review1} alt="Reviewer" />
+                <img src={Review2} alt="Reviewer" />
+                <img src={Review3} alt="Reviewer" />
+                <img src={Review4} alt="Reviewer" />
               </div>
             </div>
           </div>
@@ -64,7 +68,7 @@ const Testimonials = () => {
                   <div className="ul-review-bottom">
                     <div className="ul-review-reviewer">
                       <div className="reviewer-image">
-                        <img src="assets/images/reviewer-1.png" alt="reviewer" />
+                        <img src={Review1} alt="reviewer" />
                       </div>
                       <div>
                         <h3 className="reviewer-name">Esther Howard</h3>
@@ -87,7 +91,7 @@ const Testimonials = () => {
                   <div className="ul-review-bottom">
                     <div className="ul-review-reviewer">
                       <div className="reviewer-image">
-                        <img src="assets/images/reviewer-2.png" alt="reviewer" />
+                        <img src={Review4} alt="reviewer" />
                       </div>
                       <div>
                         <h3 className="reviewer-name">Daniyel Karlos</h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import { logo } from "../../images/logo.svg";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
@@ -7,7 +8,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <div className="ul-sidebar-header">
         <div className="ul-sidebar-header-logo">
           <a href="index.html">
-            <img src="assets/images/logo.svg" alt="logo" className="logo" />
+            <img src={logo} alt="logo" className="logo" />
           </a>
         </div>
         {/* Sidebar Close Button */}

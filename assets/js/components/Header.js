@@ -1,6 +1,7 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 import SearchForm from "../components/SearchForm";
+import { logo } from "../../images/logo.svg";
 
 const Header = () => {
   return (
@@ -42,7 +43,7 @@ const Header = () => {
           <div className="ul-header-bottom-wrapper ul-header-container">
             <div className="logo-container">
               <a href="index.html" className="d-inline-block">
-                <img src="assets/images/logo.svg" alt="logo" className="logo" />
+                <img src={logo} alt="logo" className="logo" />
               </a>
             </div>
 

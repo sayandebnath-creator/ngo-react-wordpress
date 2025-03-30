@@ -4,15 +4,17 @@ import { Navigation, Autoplay, Thumbs } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
+import leftarrow from "../../images/left-arrow.svg";
+import rightarrow from "../../images/right-arrow.svg";
 
 
 const slides = [
-    "assets/images/banner-2-slide-1.jpg",
-    "assets/images/banner-2-slide-2.jpg",
-    "assets/images/banner-2-slide-3.jpg",
-    "assets/images/banner-2-slide-1.jpg",
-    "assets/images/banner-2-slide-2.jpg",
-    "assets/images/banner-2-slide-3.jpg"
+    "../../images/banner-2-slide-1.jpg",
+    "../../images/banner-2-slide-2.jpg",
+    "../../images/banner-2-slide-3.jpg",
+    "../../images/banner-2-slide-1.jpg",
+    "../../images/banner-2-slide-2.jpg",
+    "../../images/banner-2-slide-3.jpg"
 ];
 
 const BannerSlider = () => {
@@ -63,7 +65,7 @@ const BannerSlider = () => {
 
       <div className="ul-banner-2-slider-navigation">
         <button className="prev">
-          <img src="assets/images/left-arrow.svg" alt="arrow" />
+          <img src={leftarrow} alt="arrow" />
         </button>
         <Swiper
           modules={[Thumbs]}
@@ -78,7 +80,7 @@ const BannerSlider = () => {
           ))}
         </Swiper>
         <button className="next">
-          <img src="assets/images/right-arrow.svg" alt="arrow" />
+          <img src={rightarrow} alt="arrow" />
         </button>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { contactimg } from "../../images/contact-img.jpg";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ const ContactSection = () => {
         <div className="row g-0">
           <div className="col-lg-5">
             <div className="ul-contact-img">
-              <img src="assets/images/contact-img.jpg" alt="Contact" />
+              <img src={contactimg} alt="Contact" />
             </div>
           </div>
           <div className="col-lg-7">

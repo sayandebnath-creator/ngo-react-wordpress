@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/vendor/flatpickr/flatpickr.min.css"> -->
 
     <!-- custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 
 <body>
